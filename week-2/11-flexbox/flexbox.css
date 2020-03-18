@@ -1,6 +1,6 @@
 .countries countries--first {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 .countries countries--second {
   display: flex;
