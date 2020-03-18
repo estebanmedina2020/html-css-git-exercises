@@ -1,6 +1,7 @@
 .countries countries--first {
   display: flex;
   flex-direction: row-reverse;
+  color: #000;
 }
 .countries countries--second {
   display: flex;
