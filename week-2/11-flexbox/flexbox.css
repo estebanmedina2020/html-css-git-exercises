@@ -1,12 +1,12 @@
-.panel .countries countries--first {
+.countries--first {
   display: flex;
   flex-direction: row-reverse;
 }
-.panel .countries countries--second {
+.countries--second {
   display: flex;
   flex-direction: column;
 }
-.panel .countries countries--third {
+.countries--third {
   display: flex;
   flex-direction: column-reverse;
 }
