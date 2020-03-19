@@ -4,16 +4,20 @@
 .countries--first {
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 }
 .countries--second {
   flex-direction: row-reverse;
   justify-content: baseline;
+  align-items: flex-end;
 }
 .countries--third {
   flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-end;
 }
 .countries--fourth {
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
 }
