@@ -1,4 +1,19 @@
 .countries {
   display: flex;
 }
-/* Add your own CSS code below */
+.countries--first {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.countries--second {
+  flex-direction: row-reverse;
+  justify-content: baseline;
+}
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.countries--fourth {
+  flex-direction: column;
+  justify-content: center;
+}
